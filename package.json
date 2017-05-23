@@ -1,0 +1,24 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "An API microservice to get file metadata",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "J Lewis Kilgore",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlewiskilgore/file-metadata-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jlewiskilgore/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/jlewiskilgore/file-metadata-microservice#readme"
+}
