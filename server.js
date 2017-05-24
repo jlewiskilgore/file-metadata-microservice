@@ -1,6 +1,9 @@
 var express = require('express');
+var routes = require('./src/routes/routes.js');
 
 var app =  express();
+
+routes(app, process.env);
 
 app.set('port', (process.env.PORT || 8080));
 
