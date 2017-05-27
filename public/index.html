@@ -5,8 +5,8 @@
 <body>
   <h1>File Metadata Microservice</h1>
   <br>
-  <form>
-    Select a File:  <input type="file">
+  <form action="/getfilesize" method="post" enctype="multipart/form-data">
+    Select a File:  <input type="file" name="selectedFile">
     <br>
     <br>
     <input type="submit">

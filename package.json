@@ -9,7 +9,8 @@
   "author": "J Lewis Kilgore",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "multer": "^1.3.0"
   },
   "main": "server.js",
   "devDependencies": {},
